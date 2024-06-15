@@ -6,8 +6,8 @@ const Loader = () => (
     animation="border"
     variant="dark"
   style={{
-    width:"400px",
-    height:"400px",
+    width:"200px",
+    height:"200px",
     margin:"auto",
     display:"block"
   }}
