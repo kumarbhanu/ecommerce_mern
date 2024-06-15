@@ -12,7 +12,7 @@ if(isError) return <Message>{data?.message?.error||data?.error}</Message>
   return (
     <>
 
-<Message variant="success">All items</Message>
+
       <Row>
         {data?.products?.map((product) => (
           <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
